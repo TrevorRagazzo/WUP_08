@@ -40,3 +40,13 @@ From all three results we see a increase from left to right.
 
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
+```{r}
+simp <- lm(CHEST~NECK,data=bears)
+plot(CHEST~NECK,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+Now we compared neck and chest to see a closer result rather than neck and length. With this graph we still see an increse but alot of plots scrattered more center than compared to length. 
+
+
