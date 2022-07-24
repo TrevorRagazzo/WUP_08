@@ -24,6 +24,8 @@ abline(simp)
 summary.lm(simp)
 ```
 
+We see a result of the longer the x axis goes the higher Y value gets higher. which means we get a higher lengthed than neck value 
+
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
 
